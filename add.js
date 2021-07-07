@@ -186,5 +186,106 @@
 
 // Functions
 
+// function name(parameters){
+//     statements
+//   }
+
+//--------------------------
+
+// function square(number) {
+//     return number * number;
+// }
+
+//--------------------------
+
+// function square(number) {
+//     return number * number;
+//   }
+  
+//   var res = square(5);   //calling a function
+  
+//   console.log (res);  
+
+//*********************************************************** */
+
+// Function Expression and Function Constructor
+
+// var square = function (number) {return number * number};
+// var res = square(6); //calling a function
+
+// console.log(res);
+
+//--------------------------
+
+// var area = function (num1, num2) {return num1 * num2};
+// var res = area(5,6); //calling a function
+
+// console.log(res);
+
+//--------------------------
+
+// const square = new Function ("number", "return number * number");
+// console.log(square(3));
+
+//--------------------------
+
+// var num = function(a,b) {return a*b};
+// console.log(num(5,7));
+
+//*********************************************************** */
+
+// Arrow Functions
+
+// // ES5  Regular Function
+// var x = function(x, y) {
+//     return x * y;
+//   }
+  
+//   // ES6  Arrow Function
+//   const x = (x, y) => x * y;
+
+//--------------------------
+
+// const multi = (x,y) => x*y;
+// console.log(multi(3,5));
+
+//--------------------------
+
+// var greeting = () => "Welcome"
+// document.write(greeting());
+
+
+//*********************************************************** */
+
+// function greet(name, lastname) {
+//     console.log("Hello " + name + ' ' + lastname);
+// }
+
+// greet("John", "Smith");
+// greet("Victor", "Valery");
+
+//--------------------------
+
+// function test(x,y) {
+//     if (x>y) {
+//         document.write(x);
+//     } else {
+//         document.write(y);
+//     }
+// }
+// test(7,3);
+
+//--------------------------
+
+// function num() {
+//     return 5+7;
+// }
+// console.log(typeof(num));
+
+//--------------------------
+
+// var num = [7, 12, 143, 54, 37]
+// num.sort(function(a,b) {return b-a})
+// console.log(num);
 
 
